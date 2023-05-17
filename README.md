@@ -1,15 +1,17 @@
-# ISRO Internship project
+# ISRO Internship Project
 
-### project name: 
+### Project Name: 
 
-Python GUI for hartley-huggins sensor
+Python GUI for Hartley-Huggins Sensor
 
-#### Internship period: 
-16 aug 21 to 16 sep 21
+#### Internship Period: 
+August 16, 2021 - September 16, 2021
 
 #### Detailed Description:
-The task provided to me was to design a python user interface to communicate with the sensor, which is being developed at ISRO and its motor mount through a serial communication port. 
+As part of my ISRO internship, I undertook the task of designing a Python user interface to facilitate communication with the Hartley-Huggins sensor and its motor mount via a serial communication port.
 
-The sensor was being developed to measure the hartley and huggins radiation band at the ozone layer. So during the testing of the sensor a gui had to be designed to measure its readings during its different testings. The sensor is actual a pair of two sensors placed on a trapazoid holder. This holder had to be placed on a rotary stage (PRM1-Z8) which was run by a stepper motor(thorlabs TDC001). The motor stage was used to move the sensors to different precise angles. The GUI designed had to be able to retrieve the live data from the sensor and use it to plot a live graph. The GUI was also able to give commands to the motor stage and retrieve the live angle position of the sensor.
+The Hartley-Huggins sensor, currently under development at ISRO, is specifically designed to measure radiation in the Hartley and Huggins bands at the ozone layer. During the sensor testing phase, it was essential to design a GUI that could accurately capture and display the sensor's readings under various test conditions. The sensor itself consists of a pair of sensors mounted on a trapezoid holder, which can be positioned at different angles using a rotary stage (PRM1-Z8) controlled by a stepper motor (Thorlabs TDC001). The GUI had to interface with both the sensor and the motor stage.
 
-The python script was later converted into an executable file so as to use it directly without a python IDE.
+The primary objective of the GUI was to retrieve live data from the sensor and present it in the form of a real-time graph. Additionally, it was crucial to incorporate functionalities that allowed for issuing commands to the motor stage and retrieving the live angle position of the sensor. To enhance usability, the Python script was eventually converted into an executable file, enabling direct usage without the need for a Python IDE.
+
+By successfully developing the Python GUI for the Hartley-Huggins sensor, I demonstrated my ability to design intuitive user interfaces, establish effective sensor communication, and integrate complex motor control functionalities. The conversion of the script into an executable file further streamlined the usability of the application, ensuring seamless access to the GUI's features.
